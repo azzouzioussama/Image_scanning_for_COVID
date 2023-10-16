@@ -1,0 +1,66 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Yo", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?","Doing well!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye","cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Take care", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "maker",
+         "patterns": ["who made you", "How did you get here LaeKnir", "where you come from"],
+         "responses": ["Bahloul Abderrahmane and Azzouzi Oussama Abderraouf", "by two algerian students"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","How i can call you","who are you"],
+         "responses": ["You can call me LaeKnir.", "I'm Laeknir!", "Call me LaeKnir."],
+         "context_set": ""
+        },
+        {"tag": "sick",
+         "patterns": ["I feel bad", "i'm sick", "somthing wrong with me", "I can not feel better","im feeling awful"],
+         "responses": ["Maybe I have a cure,Could you precise more", "I can help you,give me more information","I will help you,what do you feel exactly"],
+         "context_set": ""
+        },
+        {"tag": "flu",
+         "patterns": ["fever", "cough", "tiredness","loss of taste or smell","headache"],
+         "responses": ["Seems like flu, Get plenty of rest, Up your zinc intake, Drink herbal tea, If symptoms become severe, see a specialist"],
+         "context_set": ""
+        },
+        {"tag": "allergy",
+         "patterns": ["dry, red and cracked skin", "wheezing, chest tightness", "itchy", "red", "watering eyes","sneezing and an itchy","runny or blocked nose"],
+         "responses": ["Seems like allergy,you can take Antihistamines,is Better to ask specialist"],
+         "context_set": ""
+        },
+        {"tag": "corona",
+         "patterns": ["difficulty breathing", "shortness of breath", "loss of speech or mobility","confusion","chest pain","Hard breath"],
+         "responses": ["It seems u have coronavirus","Asap go to the hospital"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["thanks", "thnx", "thank you","ty","thank u","tnx","tu"],
+         "responses": ["You are welcome","No problem"],
+         "context_set": ""
+        },
+        {"tag": "protect",
+         "patterns": ["protect myself from coronavirus","how i protect myself from corona", "how to heal myself from corona", "stay away from corona","preventative measures for covid19","recover from corona, covid at home","what are public health and social measures","how long have coronaviruses existed","how i save myself","save me"],
+         "responses": ["Maintain a safe distance from others (at least 1 metre), even if they don`t appear to be sick.","Wear a mask in public, especially indoors or when physical distancing is not possible.",
+        "Choose open, well-ventilated spaces over closed ones. Open a window if indoors.","Clean your hands often. Use soap and water, or an alcohol-based hand rub.","Get vaccinated when it`s your turn. Follow local guidance about vaccination.",
+        "Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.", "Stay home if you feel unwell."],
+         "context_set": ""
+        },
+        {"tag": "symptoms",
+         "patterns": ["symptoms of coronavirus or covid", "what are the symptoms of coronavirus or covid-19", "what are signs and symptoms of the coronavirus disease","what are the organs most affected by covid19","do i have corona covid19","i have coronavirus"],
+        "responses": ["Most common symptoms:\n\t fever,\n\t cough,\n\t tiredness,\n\t loss of taste or smell.\nLess common symptoms:\n\t sore throat,\n\t headache, aches and pains,\n\t diarrhoea,\n\t a rash on skin, or discolouration of fingers or toes,\n\t red or irritated eyes.\nSerious symptoms:\n\t difficulty breathing or shortness of breath,\n\t loss of speech or mobility, or confusion,\n\t chest pain"],
+         "context_set": ""
+        },
+        {"tag": "infos",
+         "patterns": ["what is coronavirus", "what is covid19", "the disease of the year","whats covid","whats corona","whats sars"],
+          "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.\nMost people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention."],
+         "context_set": ""
+        }
+
+]
+}
